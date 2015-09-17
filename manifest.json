@@ -1,0 +1,20 @@
+{
+  	"manifest_version": 2,
+  	"name": "KeepNote",
+  	"description" : "Stores text",
+  	"version": "0.1",
+  	"browser_action": {
+    	"default_icon": "icon.png",
+    	"default_title": "KeepNote",
+    	"default_popup": "popup.html"
+  	},
+	"content_scripts": [
+    {
+      "matches": ["http://*/*"],  
+      "js": ["popup.js"]
+    }
+    ], 
+	"permissions": [
+    "activeTab","tabs", "http://*/*","https://*/*"
+  	]
+}
