@@ -1,5 +1,5 @@
 # keepnote v0.1
-Installation instructions found [here](https://developer.chrome.com/extensions/getstarted#unpacked).
+Installation instructions found [here](https://developer.chrome.com/extensions/getstarted#unpacked), once installed simply click the icon to open.
 
 ##To-Do
 - Add custom toolbar icon
