@@ -7,3 +7,4 @@ Installation instructions found [here](https://developer.chrome.com/extensions/g
 - Allow saving within session
 - Allow saving through different sessions
 - Improve UI
+- Allow user to add notes through the omnibox
